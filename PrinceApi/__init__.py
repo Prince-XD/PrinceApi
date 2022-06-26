@@ -1,9 +1,9 @@
 from requests import get
 
 
-class META():
+class Prince():
     def __init__(self):
-        self.url = "https://metavoid.info/api"
+        self.url = "https://prince-api.tk"
 
     def  animeimage(self, anime_name, type):
         try:
