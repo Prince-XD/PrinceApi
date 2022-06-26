@@ -5,7 +5,7 @@ class Prince():
     def __init__(self):
         self.url = "https://prince-api.tk"
 
-    def  animeimage(self, anime_name, type):
+    def animeimage(self, anime_name, type):
         try:
             url = f"{self.url}/animeimage/{type}/{anime_name}"
             response = url
