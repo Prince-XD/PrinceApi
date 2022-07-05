@@ -5,15 +5,15 @@ with open("README.md", "r") as txt:
     long_description = txt.read()
 
 setuptools.setup(
-    name='metavoidapi',
+    name='princeapi',
     version='1.0.3',
-    description='Metavoid Api Wrapper',
+    description='Prince Api Wrapper',
     long_description=long_description,
     long_description_content_type="text/markdown",
     license='License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
-    author='metavoid',
-    author_email='metavoidteam@gmail.com',
-    url='https://github.com/metavoidteam/metavoidapi-py.git',
+    author='prince-xd',
+    author_email='prince30112001@gmail.com',
+    url='https://github.com/Prince-XD/PrinceApi.git',
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
