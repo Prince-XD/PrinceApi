@@ -13,7 +13,7 @@ setuptools.setup(
     license='License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
     author='prince-xd',
     author_email='prince30112001@gmail.com',
-    url='https://github.com/Prince-XD/PrinceApi.git',
+    url='https://github.com/Prince-XD/PrinceApi-Py.git',
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
