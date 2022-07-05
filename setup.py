@@ -15,7 +15,7 @@ setuptools.setup(
     author_email='prince30112001@gmail.com',
     url='https://github.com/Prince-XD/PrinceApi-Py.git',
     keywords=["API", "PRINCE_API", "PRINCEAPI", "PRINCE", "PRINCE-API"],
-    packages=setuptools.find_packages(),
+    packages=["PrinceApi"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
