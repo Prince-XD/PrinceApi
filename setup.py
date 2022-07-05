@@ -5,8 +5,8 @@ with open("README.md", "r") as txt:
     long_description = txt.read()
 
 setuptools.setup(
-    name='princeapi',
-    version='1.0.3',
+    name='prince_api',
+    version='1.0.1',
     description='Prince Api Wrapper',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -14,6 +14,7 @@ setuptools.setup(
     author='prince-xd',
     author_email='prince30112001@gmail.com',
     url='https://github.com/Prince-XD/PrinceApi-Py.git',
+    keywords=["API", "PRINCE_API", "PRINCEAPI", "PRINCE", "PRINCE-API"],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
