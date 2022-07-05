@@ -1,7 +1,7 @@
 from requests import get
 
 
-class Prince():
+class api():
     def __init__(self):
         self.url = "https://prince-api.tk"
 
